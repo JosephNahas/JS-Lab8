@@ -8,6 +8,9 @@ let student = {
     },
     addCourse: function(course){
         courses.push(course);
+    },
+    coursesTotal: function(){
+        return courses.length;
     }
 };
 
