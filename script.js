@@ -27,3 +27,7 @@ console.log(first, second);
 let clonedStudent = { ...student };
 clonedStudent.graduationYear = '2027';
 console.log(clonedStudent.graduationYear);
+
+let newCourses = ['front end dev', 'object-oriented programming', 'numeric computing'];
+
+let combinedCourses = [...student.courses, ...newCourses];
