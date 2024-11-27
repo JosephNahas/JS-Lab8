@@ -16,3 +16,10 @@ console.log(jsonString);
 
 let parsedStudent = JSON.parse(jsonString);
 console.log(parsedStudent);
+
+let { name, age, enrolled , courses} = student;
+
+let scores = [85, 92, 78, 90];
+
+let [first, second, , ] = scores;
+console.log(first, second);
