@@ -13,3 +13,6 @@ student.displayInfo();
 
 let jsonString = JSON.stringify(student);
 console.log(jsonString);
+
+let parsedStudent = JSON.parse(jsonString);
+console.log(parsedStudent);
