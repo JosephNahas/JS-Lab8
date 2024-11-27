@@ -23,3 +23,7 @@ let scores = [85, 92, 78, 90];
 
 let [first, second, , ] = scores;
 console.log(first, second);
+
+let clonedStudent = { ...student };
+clonedStudent.graduationYear = '2027';
+console.log(clonedStudent.graduationYear);
