@@ -37,3 +37,9 @@ console.log(clonedStudent.graduationYear);
 let newCourses = ['front end dev', 'object-oriented programming', 'numeric computing'];
 
 let combinedCourses = [...student.courses, ...newCourses];
+
+let scoresTotal = scores.reduce(
+    (accumulatedScore, currentScore) => accumulatedScore + currentScore
+);
+
+let averageScore = Math.round(scoresTotal/scores.length);
